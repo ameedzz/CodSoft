@@ -51,7 +51,7 @@ class ModernToDo:
         save_button = ttk.Button(self.frame, text="Save Tasks", command=self.save_tasks)
         save_button.grid(row=3, column=0, columnspan=2, padx=5, pady=5, sticky="ew")
 
-        # Configure Grid to Expand
+        # Configuring Grid to Expand
         self.frame.columnconfigure(0, weight=1)
         self.frame.rowconfigure(1, weight=1)
 
